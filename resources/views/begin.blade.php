@@ -15,7 +15,7 @@
 <div class="container-sm">
     <h1>Enter name of Students </h1>
 
-    <form action="/enter_Names" method="POST">
+    <form action="/enter-grades" method="POST">
         @csrf
         @for ($i=1; $i <= 5; $i++)
         <div class="row">
